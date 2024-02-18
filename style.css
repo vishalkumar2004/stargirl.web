@@ -1,9 +1,9 @@
 h1{
-    border: 10px solid red;
+    /*border: 10px solid red;
     margin-top: 10px; 
-    margin-bottom: 20px;
+    margin-bottom: 20px;*/
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 120px;
+    font-size: 50px;
     color: rgb(230, 230, 11);
 }
 p{
@@ -27,7 +27,6 @@ img{
     width: 500px;
     border-image-width: auto;
     height: 500px;
-
 }
 h2{
     color: white;
@@ -41,6 +40,10 @@ a{
 }
 body{
     background-image: url(space.jpeg);
+}
+.two{
+    width: 800px;
+    height: 250px;
 }
 
 
