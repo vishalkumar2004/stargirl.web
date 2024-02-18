@@ -3,16 +3,19 @@ h1{
     font-size: 90px;
 }
 h1{
-    border: 6px solid red;
-    margin-top: 20px; 
+    border: 5px solid red;
+    margin-top: 10px; 
     margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    color: rgb(230, 230, 11);
 }
 p{
     color:aliceblue;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
-    text-indent: 10px;
+    text-indent: 20px;
 }
 p:hover
 {
@@ -23,18 +26,28 @@ b{
 }
 img{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-image-width: auto;
+    height: 500px;
+
 }
 h2{
     color: white;
-    font-size: 50px;
-    text-decoration: underline overline;
+    font-size: 45px;
+    text-decoration: underline  overline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
 a{
     text-decoration: none;
 }
+body{
+    background-image: url(space.jpeg);
+}
 
+
+
+    
 
