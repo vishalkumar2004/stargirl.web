@@ -31,9 +31,9 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: 700px;
     border-image-width: auto;
-    height: 500px;
+    height: 700px;
 }
 h2{
     color: white;
@@ -61,19 +61,33 @@ body{
     height: 80px;
 }
 audio{
-    width: 600px;
-    height: 50px;
-}
+    width: 700px;
+    height: 60px;
     
+}
+audio::-webkit-media-controls-panel {
+    background-color: yellow;
+}
+audio::-webkit-media-controls-mute-button{
+    background-color: red;
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-timeline{
+    background-color: red;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
     </style>    
 </html>
 <a class="two" href="https://music.apple.com/eg/song/stargirl-interlude-feat-lana-del-rey/1677000358"><h1><img class="two" src="img.png" alt="stargirl text"></h1></a>
-<table width="80%" border="0" align="center">
-    <tr>
-        <td><center><img src="stargirl.jpeg" alt="stargirl"></center></td>
-        <td><center><img src="starboy.jpeg" alt="starboy"></center></td></tr>
-    </table>    
-<h2 class="one"><center><audio controls autoplay> <source src="Stargirl Interlude .mp3"></audio></center></h2>
+<center><img src="stargirl.jpeg" alt="stargirl"></center>  
+<h2 class="one"><center><audio controls autoplay><source src="Stargirl Interlude .mp3"></audio></center></h2>
 <a href="https://www.lanadelrey.com/"><p><center><img class="three" src="lana.png" alt="lana"</center></a>
 <p>I had a vision</p>
   <p>A vision of my nails in the kitchen</p>
